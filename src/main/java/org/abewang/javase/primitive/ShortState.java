@@ -5,11 +5,6 @@ package org.abewang.javase.primitive;
  * @Date 2018/7/5.
  */
 public class ShortState implements ValueState {
-    private ValueRangeDriver driver;
-
-    public ShortState(ValueRangeDriver driver) {
-        this.driver = driver;
-    }
 
     @Override
     public void printValueRange() {

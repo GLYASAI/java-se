@@ -5,12 +5,6 @@ package org.abewang.javase.primitive;
  * @Date 2018/7/5.
  */
 public class LongState implements ValueState {
-    private ValueRangeDriver driver;
-
-    public LongState(ValueRangeDriver driver) {
-        this.driver = driver;
-    }
-
     @Override
     public void printValueRange() {
         long max = Long.MAX_VALUE;

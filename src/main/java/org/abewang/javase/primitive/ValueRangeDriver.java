@@ -18,16 +18,16 @@ public class ValueRangeDriver {
     public static void main(String[] args) {
         ValueRangeDriver driver = new ValueRangeDriver();
 
-        driver.setState(new ByteState(driver));
+        driver.setState(new ByteState());
         driver.printValueRange();
 
-        driver.setState(new ShortState(driver));
+        driver.setState(new ShortState());
         driver.printValueRange();
 
-        driver.setState(new IntState(driver));
+        driver.setState(new IntState());
         driver.printValueRange();
 
-        driver.setState(new LongState(driver));
+        driver.setState(new LongState());
         driver.printValueRange();
     }
 }

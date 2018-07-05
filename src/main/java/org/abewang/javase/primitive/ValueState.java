@@ -5,6 +5,7 @@ package org.abewang.javase.primitive;
  * @Date 2018/7/5.
  */
 public interface ValueState {
+
     void printValueRange();
 
     default <T extends Number> String getIntBinary(T number, int size) {
